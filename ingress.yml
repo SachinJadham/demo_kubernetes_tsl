@@ -4,9 +4,9 @@ metadata:
     name: nginx
 spec:
     rules:
-        -host:
-         http:
-            paths:
-                -backend:
-                    servicename: nginx
-                    serviceport: 80
+     -host:
+      http:
+        paths:
+         -backend:
+            servicename: nginx
+            serviceport: 80
