@@ -5,8 +5,8 @@ metadata:
 spec:
     rules:
     - host:
-        http:
-            paths:
-            - backend:
-                servicename: nginx
-                serviceport: 80
+      http:
+        paths:
+        - backend:
+          servicename: nginx
+          serviceport: 80
