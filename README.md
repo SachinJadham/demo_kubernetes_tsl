@@ -10,4 +10,4 @@
       a. kubectl run nginx --image=nginx 
       b. kubectl expose deployment nginx --port 80 
       c. Create ingress resource:- 
-      d. Resource definition file: ingress.yml file in this repo   
+      d. Resource definition file: ingress.yml file in this repo: kubectl apply ingress.yml   
